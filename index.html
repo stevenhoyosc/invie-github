@@ -12,17 +12,29 @@
         img {
             max-width: 100%;
             vertical-align: top;
+           /*  display: none; */
+        }
+
+        img#responsive {
+                display: none ;
+            }
+
+
+        @media screen and (max-width:768px){
+            img#responsive {
+                display: block ;
+            }
+
         }
     
     
     </style>
 </head>
 <body>
+    <img src="invie-responsive.png" alt="" srcset="" id="responsive">
     <img src="img/im1.jpg" alt="" srcset="">
     <img src="img/im4.jpg" alt="" srcset="">
     <img src="img/im5.jpg" alt="">
     <img src="img/im2.jpg" alt="" srcset="">
 </body>
 </html>
-
- 
